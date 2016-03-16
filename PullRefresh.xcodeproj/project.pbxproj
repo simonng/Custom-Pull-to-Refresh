@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21A19F411C99873C00FF7A1B /* RefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A19F401C99873C00FF7A1B /* RefreshView.swift */; };
 		C07F5C771B22CF12001A33E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07F5C761B22CF12001A33E7 /* AppDelegate.swift */; };
 		C07F5C791B22CF12001A33E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07F5C781B22CF12001A33E7 /* ViewController.swift */; };
 		C07F5C7C1B22CF12001A33E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C07F5C7A1B22CF12001A33E7 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21A19F401C99873C00FF7A1B /* RefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshView.swift; sourceTree = "<group>"; };
 		C07F5C711B22CF12001A33E7 /* PullRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PullRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C07F5C751B22CF12001A33E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C07F5C761B22CF12001A33E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				C07F5C7D1B22CF12001A33E7 /* Images.xcassets */,
 				C07F5C7F1B22CF12001A33E7 /* LaunchScreen.xib */,
 				C07F5C741B22CF12001A33E7 /* Supporting Files */,
+				21A19F401C99873C00FF7A1B /* RefreshView.swift */,
 			);
 			path = PullRefresh;
 			sourceTree = "<group>";
@@ -159,6 +162,8 @@
 		C07F5C691B22CF12001A33E7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = Appcoda;
 				TargetAttributes = {
@@ -216,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21A19F411C99873C00FF7A1B /* RefreshView.swift in Sources */,
 				C07F5C791B22CF12001A33E7 /* ViewController.swift in Sources */,
 				C07F5C771B22CF12001A33E7 /* AppDelegate.swift in Sources */,
 			);
@@ -413,6 +419,7 @@
 				C07F5C921B22CF12001A33E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C07F5C931B22CF12001A33E7 /* Build configuration list for PBXNativeTarget "PullRefreshTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +428,7 @@
 				C07F5C951B22CF12001A33E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
