@@ -138,11 +138,7 @@ class RefreshView: UIView {
         })
     }
     
-    
     private func getNextColor() -> UIColor {
-        let count = Constants.Colors.count
-        let n = currentColorIndex++
-        let next = n % count
-        return Constants.Colors[next]
+        return Constants.Colors[currentColorIndex++ % Constants.Colors.count]
     }
 }
